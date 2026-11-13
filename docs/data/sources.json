@@ -59,7 +59,8 @@
      "https://spokanelibrary.libnet.info"
     ]
    ],
-   "exclude": "cancelled|canceled"
+   "exclude": "cancelled|canceled",
+   "bigTitles": "a^"
   },
   {
    "id": "scld",
@@ -76,7 +77,8 @@
      "https://www.scld.org"
     ]
    ],
-   "aggregator": false
+   "aggregator": false,
+   "bigTitles": "a^"
   },
   {
    "id": "spokesman",
