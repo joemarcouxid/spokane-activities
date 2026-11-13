@@ -8,14 +8,10 @@
    "site": "https://www.visitspokane.com/events/",
    "strategies": [
     [
-     "jsonld",
+     "crawl",
      "https://www.visitspokane.com/events/",
-     "https://www.visitspokane.com/events/?page=2",
-     "https://www.visitspokane.com/events/?page=3"
-    ],
-    [
-     "discover",
-     "https://www.visitspokane.com/events/"
+     "/events/[a-z0-9-]+/?$",
+     "45"
     ]
    ]
   },
@@ -33,7 +29,8 @@
      "discover",
      "https://www.inlander.com/spokane/EventSearch"
     ]
-   ]
+   ],
+   "enabled": false
   },
   {
    "id": "downtown-spokane",
@@ -58,10 +55,11 @@
    "site": "https://events.spokanelibrary.org/events",
    "strategies": [
     [
-     "discover",
-     "https://events.spokanelibrary.org/events"
+     "communico",
+     "https://spokanelibrary.libnet.info"
     ]
-   ]
+   ],
+   "exclude": "cancelled|canceled"
   },
   {
    "id": "scld",
@@ -70,14 +68,15 @@
    "site": "https://www.scld.org/events/",
    "strategies": [
     [
-     "tribe",
-     "https://www.scld.org"
+     "libcal",
+     "https://scld.libcal.com"
     ],
     [
-     "discover",
-     "https://www.scld.org/events/"
+     "libcal",
+     "https://www.scld.org"
     ]
-   ]
+   ],
+   "aggregator": false
   },
   {
    "id": "spokesman",
@@ -86,12 +85,10 @@
    "site": "https://www.spokesman.com/calendar/",
    "strategies": [
     [
-     "jsonld",
-     "https://www.spokesman.com/calendar/"
-    ],
-    [
-     "discover",
-     "https://www.spokesman.com/calendar/"
+     "crawl",
+     "https://www.spokesman.com/calendar/",
+     "/calendar/events/\\d+/\\d+/",
+     "40"
     ]
    ]
   },
@@ -102,12 +99,10 @@
    "site": "https://www.spokanepublicradio.org/community-calendar",
    "strategies": [
     [
-     "jsonld",
-     "https://www.spokanepublicradio.org/community-calendar"
-    ],
-    [
-     "discover",
-     "https://www.spokanepublicradio.org/community-calendar"
+     "crawl",
+     "https://www.spokanepublicradio.org/community-calendar",
+     "community-?calendar/event/",
+     "30"
     ]
    ]
   },
@@ -138,7 +133,8 @@
      "discover",
      "https://www.spokanepfd.org/events"
     ]
-   ]
+   ],
+   "enabled": false
   },
   {
    "id": "northern-quest",
@@ -155,7 +151,8 @@
      "discover",
      "https://www.northernquest.com/entertainment/"
     ]
-   ]
+   ],
+   "enabled": false
   },
   {
    "id": "knitting-factory",
@@ -165,12 +162,10 @@
    "site": "https://sp.knittingfactory.com/",
    "strategies": [
     [
-     "jsonld",
-     "https://sp.knittingfactory.com/"
-    ],
-    [
-     "discover",
-     "https://sp.knittingfactory.com/"
+     "crawl",
+     "https://sp.knittingfactory.com/",
+     "/tm-event/",
+     "40"
     ]
    ]
   },
@@ -193,7 +188,8 @@
      "discover",
      "https://www.foxtheaterspokane.org/"
     ]
-   ]
+   ],
+   "enabled": false
   },
   {
    "id": "riverfront",
@@ -209,7 +205,8 @@
      "discover",
      "https://my.spokanecity.org/riverfrontspokane/events/"
     ]
-   ]
+   ],
+   "enabled": false
   },
   {
    "id": "songkick",
