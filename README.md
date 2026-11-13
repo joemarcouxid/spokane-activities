@@ -18,7 +18,7 @@ One place to see what's going on around Spokane: **Spokane, Spokane Valley, Libe
 2. **Email / GitHub app alert:** new concerts and big events open a "🎟 New events announced" issue. **Watch** this repo to get notified.
 
 ## How it works
-Every 3 hours GitHub Actions runs `scripts/collect.py`. It reads the public calendars in `docs/data/sources.json` (Visit Spokane, The Inlander, Downtown Spokane Partnership, the libraries, the big venues, Songkick, AllEvents, HappeningNext, plus dated event posts on r/Spokane and Bluesky), removes duplicates, tags events by town and kind using `docs/data/region.json`, and writes `docs/data/events.json`. GitHub Pages serves `docs/`.
+Once a day (early morning) GitHub Actions runs `scripts/collect.py`. It reads the public calendars in `docs/data/sources.json` (Visit Spokane, The Inlander, Downtown Spokane Partnership, the libraries, the big venues, Songkick, AllEvents, HappeningNext, plus dated event posts on r/Spokane and Bluesky), removes duplicates, tags events by town and kind using `docs/data/region.json`, and writes `docs/data/events.json`. GitHub Pages serves `docs/`.
 
 **Sources & status** at the bottom of the site shows which sources are working. Some sites block automated readers; edit `docs/data/sources.json` to add or change one.
 
