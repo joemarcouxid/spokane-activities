@@ -1,0 +1,17 @@
+https://www.visitspokane.com/events/
+https://www.inlander.com/spokane/EventSearch
+https://downtownspokane.org/wp-json/tribe/events/v1/events?per_page=2
+https://events.spokanelibrary.org/events
+https://www.scld.org/events/
+https://www.spokesman.com/calendar/
+https://www.spokanepublicradio.org/community-calendar
+https://business.spokanevalleychamber.org/events
+https://www.spokanepfd.org/events
+https://www.northernquest.com/entertainment/
+https://sp.knittingfactory.com/
+https://www.foxtheaterspokane.org/
+https://my.spokanecity.org/riverfrontspokane/events/
+https://www.songkick.com/metro-areas/8230-us-spokane
+https://allevents.in/spokane
+https://happeningnext.com/spokane
+https://www.reddit.com/r/Spokane/new/.rss

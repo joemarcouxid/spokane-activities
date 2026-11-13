@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Spokane Happenings</title>
+<meta name="description" content="Everything going on in Spokane, Spokane Valley, Liberty Lake and North Idaho: today, this weekend, and what to buy tickets for.">
+<meta name="theme-color" content="#1f3b3a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Happenings">
+<style>
+  :root{
+    --bg:#f6f2ea; --card:#fffdf8; --ink:#1d2523; --muted:#66706c; --line:#e4ddd0;
+    --pine:#1f3b3a; --pine2:#2c5552; --apple:#c8402c; --gold:#e3a72f; --sky:#dfeceb;
+    --chip:#ece6da; --ff:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; --chipOn:#1f3b3a; --radius:14px;
+    --shadow:0 1px 2px rgba(30,40,38,.06),0 4px 14px rgba(30,40,38,.06);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#121716; --card:#1a2120; --ink:#ecebe6; --muted:#9aa5a1; --line:#2a3331;
+      --pine:#183130; --pine2:#2c5552; --sky:#1e2d2c; --chip:#232c2a; --chipOn:#e3a72f; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  header{background:var(--pine);color:#f6f2ea;padding:calc(14px + env(safe-area-inset-top)) 16px 0;position:sticky;top:0;z-index:20}
+  .top{display:flex;align-items:center;gap:10px;max-width:880px;margin:0 auto}
+  .brand{flex:1;min-width:0}
+  .brand h1{margin:0;font-size:20px;letter-spacing:.2px;font-weight:750}
+  .brand .sub{font-size:12.5px;opacity:.78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .iconbtn{background:rgba(255,255,255,.12);border:0;color:inherit;width:40px;height:40px;border-radius:12px;font-size:18px;cursor:pointer;display:grid;place-items:center;flex:none}
+  .iconbtn:active{transform:scale(.95)}
+  .spin{animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  nav.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;max-width:880px;margin:12px auto 0;padding-bottom:0}
+  nav.tabs::-webkit-scrollbar{display:none}
+  .tab{flex:none;background:none;border:0;color:#f6f2ea;opacity:.72;padding:10px 12px 12px;font:600 14.5px/1 var(--ff);cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}
+  .tab .n{display:inline-block;min-width:20px;margin-left:5px;padding:2px 6px;border-radius:99px;background:rgba(255,255,255,.14);font-size:11.5px;font-weight:700}
+  .tab[aria-selected=true]{opacity:1;border-bottom-color:var(--gold)}
+  .tab.plan[aria-selected=true]{border-bottom-color:var(--apple)}
+  main{max-width:880px;margin:0 auto;padding:12px 14px 90px}
+  .filters{display:flex;flex-direction:column;gap:8px;margin:4px 0 12px}
+  .row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0}
+  .row::-webkit-scrollbar{display:none}
+  .chip{flex:none;border:1px solid var(--line);background:var(--chip);color:var(--ink);padding:7px 12px;border-radius:99px;font:600 13.5px/1 var(--ff);cursor:pointer;white-space:nowrap}
+  .chip[aria-pressed=true]{background:var(--chipOn);color:var(--bg);border-color:var(--chipOn)}
+  .search{display:flex;gap:8px}
+  .search input{flex:1;min-width:0;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:10px 12px;font:15px var(--ff)}
+  .banner{background:var(--sky);border-radius:var(--radius);padding:12px 14px;margin:0 0 14px;font-size:14px;display:flex;gap:10px;align-items:flex-start}
+  .banner b{display:block;margin-bottom:2px}
+  .banner .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 12px;border-radius:10px;font:600 13.5px var(--ff);text-decoration:none;cursor:pointer}
+  .btn.primary{background:var(--apple);border-color:var(--apple);color:#fff}
+  h2.day{font-size:13px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin:22px 2px 8px;display:flex;justify-content:space-between}
+  h2.day:first-child{margin-top:4px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:12px 14px;margin-bottom:10px;display:grid;grid-template-columns:62px 1fr;gap:12px;position:relative}
+  .when{text-align:center;border-right:1px solid var(--line);padding-right:10px}
+  .when .t{font-weight:800;font-size:15px}
+  .when .ap{font-size:11px;color:var(--muted);font-weight:700}
+  .when .d{font-size:11px;color:var(--muted);margin-top:3px;font-weight:700;text-transform:uppercase}
+  .title{font-weight:700;font-size:16px;margin:0 0 3px;line-height:1.25;padding-right:34px}
+  .title a{text-decoration:none}
+  .meta{font-size:13.5px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .desc{font-size:13.5px;margin-top:6px;color:var(--ink);opacity:.86;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+  .b{font-size:11.5px;font-weight:700;padding:3px 7px;border-radius:7px;background:var(--chip)}
+  .b.new{background:#fde7c2;color:#7a4b00}
+  .b.tix{background:#f9dcd6;color:#8a2414}
+  .b.free{background:#d8eedd;color:#1d5a2b}
+  .b.truck{background:#e8e0f6;color:#4a2f7d}
+  .b.social{background:#dbe8f7;color:#1d4677}
+  @media (prefers-color-scheme:dark){ .b.new{background:#4a3612;color:#ffd890} .b.tix{background:#4a1f18;color:#ffb5a6} .b.free{background:#173a22;color:#a6e3b5} .b.truck{background:#2e2446;color:#d3c2f5} }
+  .actions{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}
+  .actions a,.actions button{font:600 12.5px var(--ff);border:1px solid var(--line);background:none;color:var(--ink);padding:5px 9px;border-radius:8px;text-decoration:none;cursor:pointer}
+  .actions .get{background:var(--apple);color:#fff;border-color:var(--apple)}
+  .star{position:absolute;top:8px;right:8px;border:0;background:none;font-size:21px;cursor:pointer;color:var(--muted);padding:4px}
+  .star[aria-pressed=true]{color:var(--gold)}
+  .also{font-size:12.5px;color:var(--muted);margin-top:5px}
+  details.ongoing{margin:16px 0}
+  details.ongoing summary{cursor:pointer;font-weight:700;color:var(--muted);font-size:14px;padding:6px 2px}
+  .empty{text-align:center;color:var(--muted);padding:40px 16px}
+  .empty .big{font-size:40px}
+  footer{max-width:880px;margin:0 auto;padding:0 14px 40px;color:var(--muted);font-size:13px;text-align:center}
+  footer button{background:none;border:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit}
+  dialog{border:0;border-radius:18px;padding:0;max-width:560px;width:calc(100% - 24px);background:var(--card);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+  dialog::backdrop{background:rgba(10,20,18,.45)}
+  .dlg{padding:18px}
+  .dlg h3{margin:0 0 8px}
+  .src{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+  .src .s{font-weight:700;font-size:12px}
+  .src .ok{color:#2e8a49}.src .bad{color:var(--apple)}.src .meh{color:#b07a10}
+  .src .err{grid-column:1/-1;color:var(--muted);font-size:12px}
+  .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(120px);background:var(--pine);color:#fff;padding:11px 16px;border-radius:12px;font-size:14px;transition:transform .25s;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.25);max-width:92vw}
+  .toast.show{transform:translateX(-50%) translateY(0)}
+  .fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));background:var(--apple);color:#fff;border:0;border-radius:99px;padding:13px 16px;font:700 14px var(--ff);box-shadow:0 8px 24px rgba(200,64,44,.35);text-decoration:none;z-index:15}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <div class="brand">
+      <h1>🌲 Spokane Happenings</h1>
+      <div class="sub" id="sub">Spokane · the Valley · Liberty Lake · North Idaho</div>
+    </div>
+    <button class="iconbtn" id="refresh" title="Refresh" aria-label="Refresh">🔄</button>
+  </div>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+</header>
+
+<main>
+  <div class="filters">
+    <div class="search"><input id="q" type="search" placeholder="Search: food truck, Zags, concert, trivia, kids…" autocomplete="off"></div>
+    <div class="row" id="towns"></div>
+    <div class="row" id="cats"></div>
+  </div>
+  <div id="banner"></div>
+  <div id="list"></div>
+</main>
+
+<footer>
+  <div id="foot"></div>
+  <p><button id="showSources">Sources &amp; status</button> · <a id="scanNow" target="_blank" rel="noopener">Scan now on GitHub</a> · <a id="subscribe">📅 Subscribe to Plan Ahead</a></p>
+  <p style="font-size:12px">Gathered automatically from public calendars every 3 hours. Always confirm details with the organizer.</p>
+</footer>
+
+<a class="fab" id="tipBtn" target="_blank" rel="noopener">＋ Add a tip</a>
+
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+<div class="toast" id="toast"></div>
+
+<script>
+let REPO = "joemarcouxid/spokane-activities";   // replaced from the site address when hosted on GitHub Pages
+if(/\.github\.io$/.test(location.hostname)){ const seg=location.pathname.split("/").filter(Boolean); if(seg[0]) REPO = location.hostname.split(".")[0]+"/"+seg[0]; }
+let AREAS = ["Spokane","Spokane Valley","Liberty Lake","North / Mead / Deer Park","Airway Heights / West Plains","Cheney","Coeur d'Alene / Post Falls"];
+const CATS = {food:"🍔 Food & Drink",music:"🎵 Music",family:"👨‍👩‍👧 Family",outdoors:"🥾 Outdoors",sports:"🏃 Races & Sports",arts:"🎭 Arts & Shows",markets:"🛍 Markets",festivals:"🎉 Festivals",community:"🤝 Community"};
+const TABS = [["today","Today"],["weekend","This Weekend"],["week","Next 7 Days"],["month","This Month"],["year","This Year"],["plan","🎟 Plan Ahead"],["saved","⭐ My List"]];
+const $ = s => document.querySelector(s);
+const ls = { get(k,d){ try{ const v=localStorage.getItem(k); return v==null?d:JSON.parse(v);}catch(e){return d} }, set(k,v){ try{localStorage.setItem(k,JSON.stringify(v))}catch(e){} } };
+
+let DATA = null;
+const S = {
+  tab: ls.get("tab","today"),
+  towns: new Set(ls.get("towns",[])),
+  cats: new Set(),
+  q: "",
+  saved: new Set(ls.get("saved",[])),
+};
+const prevVisit = ls.get("lastVisit", null);
+ls.set("lastVisit", new Date().toISOString());
+
+/* ---------- dates ---------- */
+const D = s => new Date(s);
+const sod = d => { const x=new Date(d); x.setHours(0,0,0,0); return x; };
+const addDays = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+const fmtDay = d => d.toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"});
+const fmtShort = d => d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"});
+function windowFor(tab){
+  const now = new Date(), today = sod(now), dow = today.getDay();
+  switch(tab){
+    case "today": return [now, addDays(today,1)];
+    case "weekend": {
+      const fri = dow===5||dow===6||dow===0 ? (dow===0?addDays(today,-2):dow===6?addDays(today,-1):today) : addDays(today,(5-dow+7)%7);
+      return [fri<now?now:fri, addDays(fri,3)];
+    }
+    case "week": return [now, addDays(today,8)];
+    case "month": return [now, addDays(today,32)];
+    case "year": return [now, addDays(today,366)];
+    case "plan": return [addDays(today,7), addDays(today,500)];
+    default: return [now, addDays(today,500)];
+  }
+}
+function ago(iso){
+  if(!iso) return "never";
+  const m = Math.round((Date.now()-D(iso))/60000);
+  if(m<1) return "just now"; if(m<60) return m+" min ago";
+  const h=Math.round(m/60); if(h<36) return h+" hr ago";
+  return Math.round(h/24)+" days ago";
+}
+let BASELINE = 0;  // first scan: nothing counts as "new" until it shows up in a later scan
+const isNew = e => { const f=D(e.firstSeen).getTime(); if(f - BASELINE < 6*36e5) return false; return (Date.now()-f < 7*864e5) || (prevVisit && f > D(prevVisit).getTime()); };
+
+/* ---------- filtering ---------- */
+const normT = t => t.toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\b(the|a|an|at|and|with|live)\b/g," ").replace(/\s+/g," ").trim();
+function matches(e){
+  if(S.towns.size && !S.towns.has(e.town)) return false;
+  if(S.cats.size && !e.cats.some(c=>S.cats.has(c)) && !(S.cats.has("food") && e.foodTruck)) return false;
+  if(S.q){
+    const hay = (e.title+" "+e.venue+" "+e.town+" "+e.desc+" "+(e.tags||[]).join(" ")+" "+e.cats.join(" ")).toLowerCase();
+    if(!S.q.split(/\s+/).every(w=>hay.includes(w))) return false;
+  }
+  return true;
+}
+function inView(e, tab){
+  if(tab==="saved") return S.saved.has(e.id) && D(e.end) >= new Date();
+  const [a,b] = windowFor(tab), s=D(e.start), en=D(e.end);
+  if(tab==="plan") return e.big && s>=a && s<b;
+  return s<b && en>=a;
+}
+const longRunning = (e,a) => (D(e.end)-D(e.start)) > 3*864e5 && D(e.start) < a;
+
+/* ---------- render ---------- */
+function esc(s){ return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function timeBlock(e, showDate){
+  const s=D(e.start);
+  const date = showDate ? `<div class="d">${s.toLocaleDateString("en-US",{month:"short",day:"numeric"})}</div>` : "";
+  if(e.allDay) return `<div class="when"><div class="t">All</div><div class="ap">DAY</div>${date}</div>`;
+  const t = s.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"}).split(" ");
+  return `<div class="when"><div class="t">${t[0].replace(":00","")}</div><div class="ap">${t[1]||""}</div>${date}</div>`;
+}
+function card(e, opts={}){
+  const where = [e.venue, e.town].filter(Boolean).join(" · ") || "";
+  const badges = [];
+  if(isNew(e)) badges.push(`<span class="b new">🆕 New</span>`);
+  if(e.ticketed && !e.big && !e.ticketUrl) badges.push(`<span class="b tix">🎟 Tickets</span>`);
+  if(e.foodTruck) badges.push(`<span class="b truck">🚚 Food truck</span>`);
+  if(e.free) badges.push(`<span class="b free">Free</span>`);
+  if(e.cost && !e.free) badges.push(`<span class="b">${esc(e.cost)}</span>`);
+  e.cats.forEach(c=>badges.push(`<span class="b">${CATS[c]||c}</span>`));
+  if(e.tip) badges.push(`<span class="b">📣 Tip</span>`);
+  if(e.social) badges.push(`<span class="b social">${e.social==="Bluesky"?"🦋":"💬"} ${e.social} post · check details</span>`);
+  const map = where ? `<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue,e.address||e.town,"WA"].filter(Boolean).join(", "))}">📍 Map</a>` : "";
+  const tix = e.ticketUrl && e.ticketUrl!==e.url ? `<a class="get" target="_blank" rel="noopener" href="${esc(e.ticketUrl)}">🎟 Tickets</a>` : (e.big && e.url ? `<a class="get" target="_blank" rel="noopener" href="${esc(e.url)}">🎟 Get tickets</a>` : "");
+  const also = opts.also && opts.also.length ? `<div class="also">🔁 Also ${opts.also.slice(0,4).map(fmtShort).join(", ")}${opts.also.length>4?` +${opts.also.length-4} more`:""}</div>` : "";
+  const range = (!e.allDay && opts.showDate) ? "" : (D(e.end)-D(e.start) > 864e5 ? `<div class="meta">Through ${fmtShort(D(e.end))}</div>` : "");
+  return `<article class="card">
+    ${timeBlock(e, opts.showDate)}
+    <div>
+      <button class="star" data-star="${e.id}" aria-pressed="${S.saved.has(e.id)}" title="Save to My List">${S.saved.has(e.id)?"★":"☆"}</button>
+      <h3 class="title"><a href="${esc(e.url||"#")}" target="_blank" rel="noopener">${esc(e.title)}</a></h3>
+      <div class="meta">${esc(where)}</div>${range}
+      ${e.desc?`<div class="desc">${esc(e.desc)}</div>`:""}
+      ${also}
+      <div class="badges">${badges.join("")}</div>
+      <div class="actions">${tix}<a href="${esc(e.url||"#")}" target="_blank" rel="noopener">${e.social?"View post":"Details"}</a>${map}<button data-ics="${e.id}">📅 Add</button></div>
+    </div></article>`;
+}
+function groupRepeats(list){
+  const seen = new Map(), out = [];
+  for(const e of list){
+    const k = normT(e.title)+"|"+(e.venue||"").toLowerCase();
+    if(seen.has(k)){ seen.get(k).also.push(D(e.start)); continue; }
+    const item = {e, also:[]}; seen.set(k,item); out.push(item);
+  }
+  return out;
+}
+function renderTabs(counts){
+  $("#tabs").innerHTML = TABS.map(([k,l])=>`<button role="tab" class="tab ${k==="plan"?"plan":""}" data-tab="${k}" aria-selected="${S.tab===k}">${l}${counts[k]!=null?`<span class="n">${counts[k]}</span>`:""}</button>`).join("");
+}
+function renderChips(){
+  $("#towns").innerHTML = `<button class="chip" data-town="" aria-pressed="${S.towns.size===0}">📍 All towns</button>` +
+    AREAS.map(a=>`<button class="chip" data-town="${a}" aria-pressed="${S.towns.has(a)}">${a}</button>`).join("");
+  $("#cats").innerHTML = `<button class="chip" data-cat="" aria-pressed="${S.cats.size===0}">All kinds</button>` +
+    Object.entries(CATS).map(([k,l])=>`<button class="chip" data-cat="${k}" aria-pressed="${S.cats.has(k)}">${l}</button>`).join("");
+}
+function render(){
+  if(!DATA) return;
+  const evs = DATA.events.filter(matches);
+  const counts = {};
+  for(const [k] of TABS){
+    const [a] = windowFor(k);
+    counts[k] = evs.filter(e=>inView(e,k) && (k==="plan"||k==="saved"||!longRunning(e,a))).length;
+  }
+  renderTabs(counts); renderChips();
+  const tab = S.tab, [a,b] = windowFor(tab);
+  let list = evs.filter(e=>inView(e,tab));
+  const ongoing = (tab==="plan"||tab==="saved") ? [] : list.filter(e=>longRunning(e,a));
+  list = list.filter(e=>!ongoing.includes(e));
+
+  // banner
+  let banner = "";
+  if(tab==="plan"){
+    const fresh = list.filter(isNew).length;
+    banner = `<div class="banner"><div>🎟</div><div><b>Concerts, shows &amp; big events a week or more out</b>${fresh?`${fresh} newly announced. `:""}Get tickets before they sell out. Subscribe once and they'll show up in your phone's calendar with a reminder 3 weeks before.
+      <div class="btns"><a class="btn primary" href="${icsFeedUrl()}">📅 Subscribe on this phone</a><a class="btn" target="_blank" rel="noopener" href="https://github.com/${REPO}/subscription">🔔 Email me new announcements</a></div></div></div>`;
+  } else if(tab==="weekend"){
+    banner = `<div class="banner"><div>📆</div><div><b>${fmtShort(a)} – ${fmtShort(addDays(b,-1))}</b>${list.filter(e=>e.foodTruck).length?`Includes ${list.filter(e=>e.foodTruck).length} food truck stop(s). `:""}Tap ☆ to save anything to My List.</div></div>`;
+  } else if(tab==="saved" && !list.length){
+    banner = `<div class="banner"><div>⭐</div><div><b>Your list is empty</b>Tap ☆ on any event to keep it here (saved on this device).</div></div>`;
+  }
+  $("#banner").innerHTML = banner;
+
+  if(!list.length && !ongoing.length){
+    $("#list").innerHTML = DATA.events.length
+      ? `<div class="empty"><div class="big">🌄</div><p>Nothing matches${S.towns.size||S.cats.size||S.q?" these filters":""} here yet.</p>${S.towns.size||S.cats.size||S.q?`<button class="btn" id="clearF">Clear filters</button>`:""}</div>`
+      : `<div class="empty"><div class="big">🛰️</div><p><b>The first scan hasn't run yet.</b></p><p>Open GitHub → Actions → “Scan for events” → Run workflow. It takes a couple of minutes.</p><a class="btn primary" target="_blank" rel="noopener" href="https://github.com/${REPO}/actions/workflows/collect.yml">Run first scan</a></div>`;
+    return;
+  }
+  const items = (tab==="today"||tab==="weekend") ? list.map(e=>({e,also:[]})) : groupRepeats(list);
+  let html = "", lastKey = "";
+  const groupBy = (tab==="year"||tab==="plan"||tab==="saved") ? "month" : "day";
+  for(const {e,also} of items){
+    const s = D(e.start) < a ? a : D(e.start);
+    const key = groupBy==="month" ? s.toLocaleDateString("en-US",{month:"long",year:"numeric"}) : fmtDay(sod(s));
+    if(key!==lastKey){
+      const lbl = groupBy==="day" && sod(s).getTime()===sod(new Date()).getTime() ? "Today · "+key : key;
+      html += `<h2 class="day"><span>${lbl}</span></h2>`; lastKey = key;
+    }
+    html += card(e, {showDate: groupBy==="month", also: also.filter(d=>d>D(e.start))});
+  }
+  if(ongoing.length){
+    html += `<details class="ongoing"><summary>✨ Also ongoing (${ongoing.length}): lights, exhibits, multi-day events</summary>${ongoing.map(e=>card(e,{})).join("")}</details>`;
+  }
+  $("#list").innerHTML = html;
+}
+function renderMeta(){
+  const ok = DATA.sources.filter(s=>s.status==="ok" && s.count).length;
+  if(!DATA.updated && DATA.region && DATA.region.tagline) { $("#sub").textContent = DATA.region.tagline; return; }
+  $("#sub").textContent = DATA.updated ? `Updated ${ago(DATA.updated)} · ${DATA.events.length} events · ${ok} sources` : "Waiting for first scan";
+  $("#foot").textContent = DATA.updated ? `Last scan: ${D(DATA.updated).toLocaleString("en-US",{weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}` : "";
+}
+
+/* ---------- calendar export ---------- */
+function icsFeedUrl(){
+  const base = location.href.replace(/[#?].*$/,"").replace(/index\.html$/,"");
+  return base.replace(/^https?:/,"webcal:") + "data/plan-ahead.ics";
+}
+function icsFor(e){
+  const z = d => D(d).toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+  const dd = d => { const x=D(d); return x.getFullYear()+String(x.getMonth()+1).padStart(2,"0")+String(x.getDate()).padStart(2,"0"); };
+  const escI = s => (s||"").replace(/\\/g,"\\\\").replace(/,/g,"\\,").replace(/;/g,"\\;").replace(/\n/g,"\\n");
+  const start = e.allDay ? `DTSTART;VALUE=DATE:${dd(e.start)}` : `DTSTART:${z(e.start)}`;
+  const end = e.allDay ? `DTEND;VALUE=DATE:${dd(addDays(D(e.end),1))}` : `DTEND:${z(e.end)}`;
+  const alarms = e.big ? ["-P14D","-P1D"] : ["-PT2H"];
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//wenatchee-activities//EN","BEGIN:VEVENT",
+    `UID:${e.id}@wenatchee-activities`,`DTSTAMP:${z(new Date())}`,start,end,
+    `SUMMARY:${escI(e.title)}`,`LOCATION:${escI([e.venue,e.address||e.town].filter(Boolean).join(", "))}`,
+    `DESCRIPTION:${escI((e.desc||"")+"\n"+(e.ticketUrl||e.url||""))}`,`URL:${e.ticketUrl||e.url||""}`,
+    ...alarms.flatMap(t=>["BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${escI(e.title)}`,`TRIGGER:${t}`,"END:VALARM"]),
+    "END:VEVENT","END:VCALENDAR"].join("\r\n");
+}
+function downloadIcs(e){
+  const blob = new Blob([icsFor(e)],{type:"text/calendar"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = e.title.replace(/[^\w]+/g,"-").slice(0,50)+".ics";
+  document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();},500);
+}
+
+/* ---------- data ---------- */
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),3200); }
+async function load(manual){
+  const btn = $("#refresh"); btn.classList.add("spin");
+  try{
+    const r = await fetch("data/events.json?t="+Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+    if(!DATA.events) DATA.events = [];
+    if(!DATA.sources) DATA.sources = [];
+    if(DATA.areas && DATA.areas.length) AREAS = DATA.areas;
+    if(DATA.region && DATA.region.name){ document.querySelector(".brand h1").textContent = DATA.region.name; document.title = DATA.region.name; }
+    BASELINE = DATA.events.reduce((m,e)=>Math.min(m, D(e.firstSeen).getTime()), Infinity);
+    renderMeta(); render();
+    if(manual) toast(DATA.updated ? `Refreshed. Latest scan was ${ago(DATA.updated)}.` : "No scan yet. Tap “Scan now on GitHub”.");
+  }catch(err){
+    if(!DATA){ DATA = {events:[],sources:[],updated:null}; renderMeta(); render(); }
+    toast("Couldn't load events. Check your connection.");
+  }finally{ setTimeout(()=>btn.classList.remove("spin"),400); }
+}
+function showSources(){
+  const rows = (DATA.sources||[]).slice().sort((a,b)=>b.count-a.count).map(s=>{
+    const cls = s.status==="ok"&&s.count ? "ok" : s.status==="error" ? "bad" : "meh";
+    const label = s.status==="ok"&&s.count ? `${s.count} events` : s.status==="error" ? "not reachable" : "nothing found";
+    return `<div class="src"><div>${s.site?`<a href="${esc(s.site)}" target="_blank" rel="noopener">${esc(s.name)}</a>`:esc(s.name)}</div><div class="s ${cls}">${label}</div>${s.error&&cls!=="ok"?`<div class="err">${esc(s.error)}</div>`:""}</div>`;
+  }).join("");
+  $("#dlgBody").innerHTML = `<h3>Sources &amp; status</h3><p class="meta">Last scan ${ago(DATA.updated)}. The scan runs every 3 hours; tap “Scan now” to run it immediately (needs your GitHub sign-in).</p>${rows||"<p>No scan yet.</p>"}
+    <div class="btns" style="display:flex;gap:8px;margin-top:14px;flex-wrap:wrap"><a class="btn primary" target="_blank" rel="noopener" href="https://github.com/${REPO}/actions/workflows/collect.yml">Scan now</a><a class="btn" target="_blank" rel="noopener" href="https://github.com/${REPO}/edit/main/docs/data/sources.json">Add a source</a><button class="btn" onclick="dlg.close()">Close</button></div>`;
+  $("#dlg").showModal();
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", ev=>{
+  const t = ev.target.closest("[data-tab],[data-town],[data-cat],[data-star],[data-ics],#clearF");
+  if(!t) return;
+  if(t.dataset.tab){ S.tab=t.dataset.tab; ls.set("tab",S.tab); render(); window.scrollTo({top:0}); return; }
+  if(t.dataset.town!==undefined){ const v=t.dataset.town; if(!v) S.towns.clear(); else S.towns.has(v)?S.towns.delete(v):S.towns.add(v); ls.set("towns",[...S.towns]); render(); return; }
+  if(t.dataset.cat!==undefined){ const v=t.dataset.cat; if(!v) S.cats.clear(); else S.cats.has(v)?S.cats.delete(v):S.cats.add(v); render(); return; }
+  if(t.dataset.star){ const id=t.dataset.star; S.saved.has(id)?S.saved.delete(id):S.saved.add(id); ls.set("saved",[...S.saved]); render(); toast(S.saved.has(id)?"Saved to My List ⭐":"Removed from My List"); return; }
+  if(t.dataset.ics){ const e=DATA.events.find(x=>x.id===t.dataset.ics); if(e) downloadIcs(e); return; }
+  if(t.id==="clearF"){ S.towns.clear(); S.cats.clear(); S.q=""; $("#q").value=""; ls.set("towns",[]); render(); }
+});
+let qt; $("#q").addEventListener("input", e=>{ clearTimeout(qt); qt=setTimeout(()=>{ S.q=e.target.value.trim().toLowerCase(); render(); },150); });
+$("#refresh").addEventListener("click", ()=>load(true));
+$("#showSources").addEventListener("click", showSources);
+$("#scanNow").href = `https://github.com/${REPO}/actions/workflows/collect.yml`;
+$("#tipBtn").href = `https://github.com/${REPO}/issues/new?template=event-tip.yml`;
+$("#subscribe").href = icsFeedUrl();
+const dlg = $("#dlg");
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="visible" && DATA && DATA.updated && Date.now()-D(DATA.updated)>3*36e5) load(); });
+load();
+</script>
+</body>
+</html>

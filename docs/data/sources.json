@@ -1,0 +1,297 @@
+{
+ "_help": "Each source is tried with its strategies in order until one returns events. Strategies: tribe (WordPress 'The Events Calendar' REST API), ical (a .ics feed URL), jsonld (schema.org Event data embedded in a web page), discover (look for calendar feed links on the page). 'town' is the fallback town when an event has no address. 'aggregator: true' means events are kept only if their address is inside our area. 'concerts: true' marks every event from the source as a Plan Ahead candidate. Set 'enabled': false to switch a source off.",
+ "sources": [
+  {
+   "id": "visit-spokane",
+   "name": "Visit Spokane",
+   "town": "Spokane",
+   "site": "https://www.visitspokane.com/events/",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.visitspokane.com/events/",
+     "https://www.visitspokane.com/events/?page=2",
+     "https://www.visitspokane.com/events/?page=3"
+    ],
+    [
+     "discover",
+     "https://www.visitspokane.com/events/"
+    ]
+   ]
+  },
+  {
+   "id": "inlander",
+   "name": "The Inlander calendar",
+   "town": "Spokane",
+   "site": "https://www.inlander.com/spokane/EventSearch",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.inlander.com/spokane/EventSearch"
+    ],
+    [
+     "discover",
+     "https://www.inlander.com/spokane/EventSearch"
+    ]
+   ]
+  },
+  {
+   "id": "downtown-spokane",
+   "name": "Downtown Spokane Partnership",
+   "town": "Spokane",
+   "site": "https://downtownspokane.org/events/",
+   "strategies": [
+    [
+     "tribe",
+     "https://downtownspokane.org"
+    ],
+    [
+     "ical",
+     "https://downtownspokane.org/events/?ical=1"
+    ]
+   ]
+  },
+  {
+   "id": "spokane-library",
+   "name": "Spokane Public Library",
+   "town": "Spokane",
+   "site": "https://events.spokanelibrary.org/events",
+   "strategies": [
+    [
+     "discover",
+     "https://events.spokanelibrary.org/events"
+    ]
+   ]
+  },
+  {
+   "id": "scld",
+   "name": "Spokane County Library District",
+   "town": "Spokane Valley",
+   "site": "https://www.scld.org/events/",
+   "strategies": [
+    [
+     "tribe",
+     "https://www.scld.org"
+    ],
+    [
+     "discover",
+     "https://www.scld.org/events/"
+    ]
+   ]
+  },
+  {
+   "id": "spokesman",
+   "name": "Spokesman-Review calendar",
+   "town": "Spokane",
+   "site": "https://www.spokesman.com/calendar/",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.spokesman.com/calendar/"
+    ],
+    [
+     "discover",
+     "https://www.spokesman.com/calendar/"
+    ]
+   ]
+  },
+  {
+   "id": "spr",
+   "name": "Spokane Public Radio community calendar",
+   "town": "Spokane",
+   "site": "https://www.spokanepublicradio.org/community-calendar",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.spokanepublicradio.org/community-calendar"
+    ],
+    [
+     "discover",
+     "https://www.spokanepublicradio.org/community-calendar"
+    ]
+   ]
+  },
+  {
+   "id": "valley-chamber",
+   "name": "Greater Spokane Valley Chamber",
+   "town": "Spokane Valley",
+   "site": "https://business.spokanevalleychamber.org/events",
+   "strategies": [
+    [
+     "chambermaster",
+     "https://business.spokanevalleychamber.org"
+    ]
+   ]
+  },
+  {
+   "id": "spokane-pfd",
+   "name": "Spokane Arena & First Interstate Center",
+   "town": "Spokane",
+   "concerts": true,
+   "site": "https://www.spokanepfd.org/events",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.spokanepfd.org/events"
+    ],
+    [
+     "discover",
+     "https://www.spokanepfd.org/events"
+    ]
+   ]
+  },
+  {
+   "id": "northern-quest",
+   "name": "Northern Quest",
+   "town": "Airway Heights / West Plains",
+   "concerts": true,
+   "site": "https://www.northernquest.com/entertainment/",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.northernquest.com/entertainment/"
+    ],
+    [
+     "discover",
+     "https://www.northernquest.com/entertainment/"
+    ]
+   ]
+  },
+  {
+   "id": "knitting-factory",
+   "name": "Knitting Factory Spokane",
+   "town": "Spokane",
+   "concerts": true,
+   "site": "https://sp.knittingfactory.com/",
+   "strategies": [
+    [
+     "jsonld",
+     "https://sp.knittingfactory.com/"
+    ],
+    [
+     "discover",
+     "https://sp.knittingfactory.com/"
+    ]
+   ]
+  },
+  {
+   "id": "fox",
+   "name": "Fox Theater / Spokane Symphony",
+   "town": "Spokane",
+   "concerts": true,
+   "site": "https://www.foxtheaterspokane.org/",
+   "strategies": [
+    [
+     "tribe",
+     "https://www.foxtheaterspokane.org"
+    ],
+    [
+     "jsonld",
+     "https://www.foxtheaterspokane.org/events/"
+    ],
+    [
+     "discover",
+     "https://www.foxtheaterspokane.org/"
+    ]
+   ]
+  },
+  {
+   "id": "riverfront",
+   "name": "Riverfront Spokane",
+   "town": "Spokane",
+   "site": "https://my.spokanecity.org/riverfrontspokane/events/",
+   "strategies": [
+    [
+     "jsonld",
+     "https://my.spokanecity.org/riverfrontspokane/events/"
+    ],
+    [
+     "discover",
+     "https://my.spokanecity.org/riverfrontspokane/events/"
+    ]
+   ]
+  },
+  {
+   "id": "songkick",
+   "name": "Songkick concerts",
+   "aggregator": true,
+   "concerts": true,
+   "site": "https://www.songkick.com/metro-areas/8230-us-spokane",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.songkick.com/metro-areas/8230-us-spokane",
+     "https://www.songkick.com/metro-areas/8230-us-spokane?page=2",
+     "https://www.songkick.com/metro-areas/8230-us-spokane?page=3",
+     "https://www.songkick.com/metro-areas/8230-us-spokane?page=4"
+    ]
+   ]
+  },
+  {
+   "id": "allevents",
+   "name": "AllEvents (incl. Facebook events)",
+   "aggregator": true,
+   "site": "https://allevents.in/spokane",
+   "strategies": [
+    [
+     "jsonld",
+     "https://allevents.in/spokane",
+     "https://allevents.in/spokane-valley",
+     "https://allevents.in/liberty-lake",
+     "https://allevents.in/cheney",
+     "https://allevents.in/airway-heights",
+     "https://allevents.in/mead",
+     "https://allevents.in/deer-park",
+     "https://allevents.in/coeur-d-alene",
+     "https://allevents.in/post-falls",
+     "https://allevents.in/hayden"
+    ]
+   ]
+  },
+  {
+   "id": "happeningnext",
+   "name": "HappeningNext",
+   "aggregator": true,
+   "site": "https://happeningnext.com/spokane",
+   "strategies": [
+    [
+     "jsonld",
+     "https://happeningnext.com/spokane",
+     "https://happeningnext.com/spokane-valley",
+     "https://happeningnext.com/coeur-d-alene"
+    ]
+   ]
+  },
+  {
+   "id": "reddit",
+   "name": "Reddit (r/Spokane & nearby)",
+   "town": "Spokane",
+   "site": "https://www.reddit.com/r/Spokane/",
+   "strategies": [
+    [
+     "reddit",
+     "Spokane",
+     "SpokaneValley",
+     "CoeurdAlene"
+    ]
+   ]
+  },
+  {
+   "id": "bluesky",
+   "name": "Bluesky posts",
+   "aggregator": true,
+   "site": "https://bsky.app/search?q=spokane",
+   "strategies": [
+    [
+     "bluesky",
+     "spokane",
+     "spokane valley",
+     "liberty lake",
+     "coeur d'alene",
+     "spokane food truck",
+     "spokane concert"
+    ]
+   ]
+  }
+ ]
+}

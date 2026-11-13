@@ -1,0 +1,220 @@
+{
+ "name": "🌲 Spokane Happenings",
+ "tagline": "Spokane · the Valley · Liberty Lake · North Idaho",
+ "repo": "joemarcouxid/spokane-activities",
+ "areas": [
+  {
+   "name": "Spokane Valley",
+   "words": [
+    "spokane valley",
+    "millwood",
+    "otis orchards",
+    "greenacres",
+    "veradale",
+    "fair and expo",
+    "fair & expo",
+    "avista stadium",
+    "scale house market",
+    "arbor crest",
+    "mirabeau",
+    "centerplace",
+    "spokane valley library",
+    "argonne library"
+   ],
+   "zips": [
+    "99206",
+    "99212",
+    "99216",
+    "99037",
+    "99027",
+    "99016"
+   ]
+  },
+  {
+   "name": "Liberty Lake",
+   "words": [
+    "liberty lake"
+   ],
+   "zips": [
+    "99019"
+   ]
+  },
+  {
+   "name": "North / Mead / Deer Park",
+   "words": [
+    "mead, wa",
+    "mead wa",
+    "deer park",
+    "nine mile falls",
+    "colbert",
+    "mt. spokane",
+    "mt spokane",
+    "mount spokane",
+    "chattaroy",
+    "higher ground animal sanctuary",
+    "north spokane library"
+   ],
+   "zips": [
+    "99021",
+    "99006",
+    "99026",
+    "99003",
+    "99009"
+   ]
+  },
+  {
+   "name": "Airway Heights / West Plains",
+   "words": [
+    "airway heights",
+    "northern quest",
+    "spokane tribe",
+    "spokane live",
+    "becu live",
+    "medical lake",
+    "west plains"
+   ],
+   "zips": [
+    "99001",
+    "99022"
+   ]
+  },
+  {
+   "name": "Cheney",
+   "words": [
+    "cheney",
+    "eastern washington university",
+    "ewu "
+   ],
+   "zips": [
+    "99004"
+   ]
+  },
+  {
+   "name": "Coeur d'Alene / Post Falls",
+   "words": [
+    "coeur d'alene",
+    "coeur d’alene",
+    "coeur d alene",
+    "post falls",
+    "hayden",
+    "rathdrum",
+    "silverwood",
+    "cda resort",
+    "the coeur d'alene resort"
+   ],
+   "zips": [
+    "83814",
+    "83815",
+    "83816",
+    "83854",
+    "83835",
+    "83858"
+   ]
+  },
+  {
+   "name": "Spokane",
+   "words": [
+    "spokane",
+    "gonzaga",
+    "whitworth",
+    "riverfront park",
+    "kendall yards",
+    "fox theater",
+    "bing crosby",
+    "knitting factory",
+    "first interstate center",
+    "numerica veterans arena",
+    "spokane arena",
+    "gesa pavilion",
+    "one spokane stadium",
+    "big dipper",
+    "district bar",
+    "garland theater",
+    "manito",
+    "south perry",
+    "hillyard",
+    "browne's addition",
+    "riverside place",
+    "martin woldson",
+    "the bartlett",
+    "lucky you lounge"
+   ],
+   "zips": [
+    "992\\d\\d"
+   ]
+  }
+ ],
+ "notHere": [
+  "missoula",
+  "pendleton",
+  "kennewick",
+  "richland",
+  "pasco",
+  "walla walla",
+  "moscow, id",
+  "moscow id",
+  "pullman",
+  "lewiston",
+  "clarkston",
+  "sandpoint",
+  "bonners ferry",
+  "kellogg",
+  "wallace",
+  "kalispell",
+  "whitefish",
+  "colville",
+  "newport, wa",
+  "chewelah",
+  "ritzville",
+  "moses lake",
+  "wenatchee",
+  "seattle",
+  "tacoma",
+  "yakima",
+  "ellensburg",
+  "george, wa",
+  "gorge amphitheat",
+  "boise",
+  "portland",
+  "bellevue",
+  "everett",
+  "tri-cities",
+  "tri cities",
+  "helena",
+  "bozeman",
+  "omak",
+  "grand coulee"
+ ],
+ "bigVenues": [
+  "spokane arena",
+  "numerica veterans arena",
+  "first interstate center",
+  "fox theater",
+  "the fox, spokane",
+  "martin woldson",
+  "bing crosby",
+  "knitting factory",
+  "northern quest",
+  "becu live",
+  "spokane live",
+  "spokane tribe",
+  "gesa pavilion",
+  "gesa credit union pavilion",
+  "one spokane stadium",
+  "avista stadium",
+  "fair and expo",
+  "star theater",
+  "spokane civic theatre",
+  "coeur d'alene resort",
+  "the district at knitting"
+ ],
+ "displayOrder": [
+  "Spokane",
+  "Spokane Valley",
+  "Liberty Lake",
+  "North / Mead / Deer Park",
+  "Airway Heights / West Plains",
+  "Cheney",
+  "Coeur d'Alene / Post Falls"
+ ]
+}

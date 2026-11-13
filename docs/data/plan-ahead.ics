@@ -1,0 +1,1343 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wenatchee-activities//Plan Ahead//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Wenatchee Area – Plan Ahead
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+BEGIN:VEVENT
+UID:a256abe15ee0@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20270328
+SUMMARY:Wenatchee Wild vs. Everett Silvertips
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:$22 \nhttps://happeningnext.com/event/wenatchee-wild-vs-everett-silvertips-eid13twixk2l3c
+URL:https://happeningnext.com/event/wenatchee-wild-vs-everett-silvertips-eid13twixk2l3c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wild vs. Everett Silvertips
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c884940e7c@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261129
+SUMMARY:Penticton Vees at Wenatchee Wild at Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:https://happeningnext.com/event/penticton-vees-at-wenatchee-wild-at-town-toyota-center-eid15hwh4rsiu9
+URL:https://happeningnext.com/event/penticton-vees-at-wenatchee-wild-at-town-toyota-center-eid15hwh4rsiu9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Penticton Vees at Wenatchee Wild at Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4f5e180c3eb@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261114T000000Z
+DTEND:20261114T030000Z
+SUMMARY:Live Music w/ Ray Glover
+LOCATION:Goose Ridge: Leavenworth Tasting Room\, Leavenworth
+DESCRIPTION:As the singer/guitarist for the DIMESTORE PROPHETS\, Ray Glover paints a melodious atmosphere\, bringing a fine blend of acoustic covers showcasing contemporary and classic top 40 hits. Ray’s poignant vocals and smooth rhythmic approach engulf listeners in what can only be described as “feeling good”.\nhttps://www.gooseridge.com/leavenworth/
+URL:https://www.gooseridge.com/leavenworth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Live Music w/ Ray Glover
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c32ade2001cb@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261114T030000Z
+DTEND:20261114T050000Z
+SUMMARY:Dwight Yoakam @ Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:Dwight Yoakam at Town Toyota Center at 2026-11-13T19:00:00-0800\nhttp://www.songkick.com/concerts/43378275-dwight-yoakam-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43378275-dwight-yoakam-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Dwight Yoakam @ Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eff2cbdab567@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Holiday Open House & Wine Walk
+LOCATION:103 Palouse St\, Suite 10\, Wenatchee\, WA\, United States\, Washington 98801\, Wenatchee
+DESCRIPTION:Kick off the holiday season in downtown Wenatchee with a cozy evening of shopping\, sipping\, and celebration! This year's Wine Walk features 21 tasting rooms throughout downtown. Your ticket includes a tasting bracelet that gives you access to wine tasti\nhttps://allevents.in/wenatchee/holiday-open-house-and-wine-walk/200030744631612
+URL:https://allevents.in/wenatchee/holiday-open-house-and-wine-walk/200030744631612
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Holiday Open House & Wine Walk
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:32d03a92adbf@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Jazz Jam Quintet: Music and Dancing
+LOCATION:Studio 509 Dance\, Wenatchee
+DESCRIPTION:$23 Join us for a fun evening of live music and dancing to the Jazz Jam Quintet! Come dance or just watch from our onsite bar\, The Wallflower.Agenda🕑: 07:00 PM - 08:00 PMBegin\nhttps://happeningnext.com/event/jazz-jam-quintet-music-and-dancing-eid1ef0l8re1kla
+URL:https://happeningnext.com/event/jazz-jam-quintet-music-and-dancing-eid1ef0l8re1kla
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Jazz Jam Quintet: Music and Dancing
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:85479b4008c4@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Wenatchee Wine and Food Festival
+LOCATION:Wenatchee Convention Center\, Wenatchee
+DESCRIPTION:$103 Foothills Magazine is proud to produce the Wenatchee Wine & Food Festival\, Eastern Washington’s premier food and wine event!About this EventFoothills Magazine is proud to produce the Wenatchee Wine & Food Fe\nhttps://happeningnext.com/event/wenatchee-wine-and-food-festival-eid1ef0l5rcffxr
+URL:https://happeningnext.com/event/wenatchee-wine-and-food-festival-eid1ef0l5rcffxr
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wine and Food Festival
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:580f15409b07@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261114T170000Z
+DTEND:20261114T220000Z
+SUMMARY:Mountain Market at Mountain Springs Lodge
+LOCATION:Mountain Springs Lodge\, Leavenworth
+DESCRIPTION:Join us for the Mountain Market at Mountain Springs Lodge\, a vibrant celebration of local makers and community! This free\, family-friendly event welcomes you to explore talented local vendors showcased inside the lodge. Enjoy a variety of food and beverages available for purchase. Friendly…\nhttps://www.mtsprings.com/mtn_experiences/mountain-market/
+URL:https://www.mtsprings.com/mtn_experiences/mountain-market/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Mountain Market at Mountain Springs Lodge
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41721959b2f6@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261115T000000Z
+DTEND:20261115T050000Z
+SUMMARY:Warren Miller’s Days Off
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Join us for a family-friendly ski film fundraiser supporting two great community nonprofits: Plain Valley Ski Trails’ youth ski program\, the Plain Valley Nordic Team (PVNT)\, and Leavenworth Winter Sports Club’s youth Nordic team (LWSC). Be prepared to enter the raffle for great prizes that will…\nhttps://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000K6Von2AF
+URL:https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000K6Von2AF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Warren Miller’s Days Off
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:89087a81b0b3@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261115T230000Z
+DTEND:20261116T020000Z
+SUMMARY:Live Music w/ Owen Barnhart & Maritza
+LOCATION:Goose Ridge: Leavenworth Tasting Room\, Leavenworth
+DESCRIPTION:Owen is a singer-songwriter and multi-instrumentalist from a small mountain town in Washington state. A Stehekin native\, Owen Barnhart plays a unique tribute to his roots in Classic Country and Americana with woody fingerpicked guitar and a crystal clear voice. From Waylon to Buck\, to Eric Church…\nhttps://www.gooseridge.com/leavenworth/
+URL:https://www.gooseridge.com/leavenworth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Live Music w/ Owen Barnhart & Maritza
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:30eab91f423e@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261116T020000Z
+DTEND:20261116T050000Z
+SUMMARY:Taste & See Banqueet
+LOCATION:Icicle Ridge Winery\, Cashmere
+DESCRIPTION:An exclusive evening at the Icicle Ridge Log Home Tasting room in Peshastin\, WA! Explore and celebrate fantastic flavors with rich food prepared by local artisan chef Ashley Erickson (Conifer Catering) paired with the excellent wines crafted by the family of Icicle Ridge Winery. Ingalls Creek…\nhttps://www.ingallscreek.org/upcomingevents#/event/188/taste-see-banquet
+URL:https://www.ingallscreek.org/upcomingevents#/event/188/taste-see-banquet
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Taste & See Banqueet
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3fe8fe26f75@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261119T030000Z
+DTEND:20261119T060000Z
+SUMMARY:Leavenworth’s Original Comedy Night at Bushel and Bee
+LOCATION:Bushel & Bee Taproom\, Leavenworth
+DESCRIPTION:Join us for Leavenworth’s Original Comedy Night at Bushel! Wednesday 11/18\, Doors: 7PM\, come early for the best seats! 21+ $14 Tickets (linked or come into the taproom) Headliner: Greg Beachler Opener: Brandon White Local Hilarious Human Lisa Martinez will be Mcing the night. No dogs please\, they…\nhttps://www.facebook.com/share/1FGKcrSUZq/
+URL:https://www.facebook.com/share/1FGKcrSUZq/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Leavenworth’s Original Comedy Night at Bushel and Bee
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f798a2e39b44@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261119T140000Z
+DTEND:20261120T043000Z
+SUMMARY:Girls’ Night Out @NCW Woodshop
+LOCATION:NCW Woodshop\, Cashmere
+DESCRIPTION:Looking for a fun and creative night out with friends? Join us for a hands-on Girls’ Night Out woodworking class\, where you’ll craft your very own hexagon floating shelves to take home and display! During this 2.5-hour session\, you’ll start with pre-cut wood pieces and learn how to assemble them…\nhttps://ncwwoodshop.com/class-GNO
+URL:https://ncwwoodshop.com/class-GNO
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Girls’ Night Out @NCW Woodshop
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0e394d1c0b48@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261119T180000Z
+DTEND:20261119T220000Z
+SUMMARY:Winter Prep Workday: Mulching for Native Plants
+LOCATION:Red Barn at Wenatchee River Institute\, Wenatchee
+DESCRIPTION:Free Join us for a hands-on community workday as we prepare our Native Plant Garden for winter! Newly planted native species face tough competition from winter-growing grasses that thrive under the snow and stunt spring growth. By applying a heavy layer of mulch\, we can smother these invasive grasses\,…\nhttps://wenatcheeriverinstitute.org/event-calendar.html/event/2026/11/19/winter-prep-workday-mulching-for-native-plants/582052
+URL:https://wenatcheeriverinstitute.org/event-calendar.html/event/2026/11/19/winter-prep-workday-mulching-for-native-plants/582052
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Winter Prep Workday: Mulching for Native Plants
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:284744a6a27f@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Comedy! Lagers & Laughs: Travis Sherer & Cara Rosellini!
+LOCATION:Pinnacle Beerworks\, Wenatchee
+DESCRIPTION:$29 Our first show at Pinnacle Beerworks is an amazing lineup with two headliners: Travis Sherer and Cara RoselliniAbout this EventCozy Comedy Co-Founder\, award-winning writer\, & hilarious local comedian T\nhttps://happeningnext.com/event/comedy-lagers-andamp-laughs-travis-sherer-andamp-cara-rosellini-eid1ef0l7x5fh9r
+URL:https://happeningnext.com/event/comedy-lagers-andamp-laughs-travis-sherer-andamp-cara-rosellini-eid1ef0l7x5fh9r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Comedy! Lagers & Laughs: Travis Sherer & Cara Rosellini!
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a662514ec26@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261121T000000Z
+DTEND:20261121T030000Z
+SUMMARY:Live Music W/ Kevin Jones
+LOCATION:Goose Ridge: Leavenworth Tasting Room\, Leavenworth
+DESCRIPTION:Come enjoy a performance from the talented Kevin Jones while you sip wine and cider! . Kevin Jones is a multi-instrumentalist\, producer\, and singer/songwriter He performs solo\, duo\, trio\, and with The Kevin Jones Band and sits in with some of the finest musicians in the world today. Kevin is a…\nhttps://www.gooseridge.com/leavenworth/
+URL:https://www.gooseridge.com/leavenworth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Live Music W/ Kevin Jones
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4a989b7b440@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261121T020000Z
+DTEND:20261121T040000Z
+SUMMARY:Jen Howard @ Union Hill Cider Co. Amphitheater
+LOCATION:Union Hill Cider Co. Amphitheater\, East Wenatchee
+DESCRIPTION:Jen Howard at Union Hill Cider Co. Amphitheater at 2026-11-20T18:00:00-0800\nhttp://www.songkick.com/concerts/43300916-jen-howard-at-union-hill-cider-co-amphitheater?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43300916-jen-howard-at-union-hill-cider-co-amphitheater?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Jen Howard @ Union Hill Cider Co. Amphitheater
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:75ce7939e7e6@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Laugh Riot 2026 with Andy Woodhull and Jody Carrol
+LOCATION:Wenatchee Convention Center\, Wenatchee
+DESCRIPTION:$31 BI Annual stand up comedy event in Wenatchee\, WA . 26 years strong!About this Event https://cdn-az.allevents.in/events2/banners/3c6cc630-dd80-11f1-b5f0-afb87e29c9d2-rimg-w1200-h714-dc080808-gmir.jpg An\nhttps://happeningnext.com/event/laugh-riot-2026-with-andy-woodhull-and-jody-carrol-eid1ef0kwckbuoa
+URL:https://happeningnext.com/event/laugh-riot-2026-with-andy-woodhull-and-jody-carrol-eid1ef0kwckbuoa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Laugh Riot 2026 with Andy Woodhull and Jody Carrol
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1b15e5e6cfda@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Saturday\, November 21st: Elvis Presley & Patsy Cline Tribute Show
+LOCATION:One: Special Event Venue\, Quincy
+DESCRIPTION:$23 Get ready to rock and swoon with the ultimate Elvis and Patsy Cline tribute show that’ll take you back in time!About this EventSaturday\, November 21stEverett Dean Productions PresentsElvis Presley & Pats\nhttps://happeningnext.com/event/saturday-november-21st-elvis-presley-andamp-patsy-cline-tribute-show-eid1ef0l3a5msqa
+URL:https://happeningnext.com/event/saturday-november-21st-elvis-presley-andamp-patsy-cline-tribute-show-eid1ef0l3a5msqa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Saturday\, November 21st: Elvis Presley & Patsy Cline Tribute Show
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5782e30cdd03@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Sunday\, November 22nd: Elvis Presley & Loretta Lynn Tribute Show
+LOCATION:One: Special Event Venue\, Quincy
+DESCRIPTION:$23 Get ready to rock and swoon with the ultimate Elvis and Patsy Cline tribute show that’ll take you back in time!About this EventSunday\, November 22ndEverett Dean Productions PresentsElvis Presley & Lorett\nhttps://happeningnext.com/event/sunday-november-22nd-elvis-presley-andamp-loretta-lynn-tribute-show-eid1ef0l3a5t7na
+URL:https://happeningnext.com/event/sunday-november-22nd-elvis-presley-andamp-loretta-lynn-tribute-show-eid1ef0l3a5t7na
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Sunday\, November 22nd: Elvis Presley & Loretta Lynn Tribute Show
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9357644cf053@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261123T020000Z
+DTEND:20261123T040000Z
+SUMMARY:Michel @ Wenatchee Convention Center
+LOCATION:Wenatchee Convention Center\, Wenatchee
+DESCRIPTION:Michel at Wenatchee Convention Center at 2026-11-22T18:00:00-0800\nhttp://www.songkick.com/concerts/43470047-michel-at-wenatchee-convention-center?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43470047-michel-at-wenatchee-convention-center?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Michel @ Wenatchee Convention Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:feb50ad53864@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261126T170000Z
+DTEND:20261126T190000Z
+SUMMARY:Fowl Play 5k Turkey Trot!
+LOCATION:Front Street Park Gazebo\, Leavenworth
+DESCRIPTION:A Thanksgiving fun run starting at Front Street\, looping around the river trails\, and finishing at the gazebo! All proceeds go to the Cascade High School cross country team.\nhttps://runsignup.com/Race/WA/Leavenworth/FowlPlay5K
+URL:https://runsignup.com/Race/WA/Leavenworth/FowlPlay5K
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Fowl Play 5k Turkey Trot!
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:170aeb24326b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20270308
+SUMMARY:Wenatchee Wild vs. Kelowna Rockets
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:$22 \nhttps://happeningnext.com/event/wenatchee-wild-vs-kelowna-rockets-eid13twixk2lak
+URL:https://happeningnext.com/event/wenatchee-wild-vs-kelowna-rockets-eid13twixk2lak
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wild vs. Kelowna Rockets
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2546eecce734@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:Live Music w/ Seth Garrido
+LOCATION:Goose Ridge: Leavenworth Tasting Room\, Leavenworth
+DESCRIPTION:A local favorite\, steeped in the tradition of heartfelt country songwriting\, Seth Garrido has shaken down that history and gathered a collection of songs that speak honestly on love’s emotional spectrum. His genuine connection with his audience will have you smiling and singing along.\nhttps://www.gooseridge.com/leavenworth/
+URL:https://www.gooseridge.com/leavenworth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Live Music w/ Seth Garrido
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7446986ac495@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Wenatchee Wild vs. Penticton Vees
+LOCATION:Town Toyota Center - Wenatchee\, Wenatchee
+DESCRIPTION:Nearby AttractionsWenatchee Wild has 53 upcoming events.Penticton Vees has 25 upcoming events.\nhttps://allevents.in/wenatchee/wenatchee-wild-vs-penticton-vees/210001951903016
+URL:https://allevents.in/wenatchee/wenatchee-wild-vs-penticton-vees/210001951903016
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wild vs. Penticton Vees
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:54f1760ecffc@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261128T210000Z
+DTEND:20261128T210000Z
+SUMMARY:Rachael Lundin Book Signing
+LOCATION:A Book for All Seasons\, Wenatchee
+DESCRIPTION:Rachael Lundin signs\, Music of the Mermaids\, a middle school story of thirteen-year-old Dakota Geske who has until sunrise to return a kidnapped merchild and stop a war between two worlds.\nhttps://abookforallseasons.com/event/2026-11-28/music-mermaids-book-signing
+URL:https://abookforallseasons.com/event/2026-11-28/music-mermaids-book-signing
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Rachael Lundin Book Signing
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8823ca24a274@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261129T230000Z
+DTEND:20261130T020000Z
+SUMMARY:Live Music w/ Chris Anderson
+LOCATION:Goose Ridge: Leavenworth Tasting Room\, Leavenworth
+DESCRIPTION:First known professionally as “The Singing Busboy” of Jebino’s Restaurant in his hometown of Eatonville\, WA\, Chris has been performing seamless interpretations of classic songs from the 40’s\, 50’s\, and early 60’s for over a decade. Chris wasn’t always an “old soul” when it came to his musical…\nhttps://www.gooseridge.com/leavenworth/
+URL:https://www.gooseridge.com/leavenworth/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Live Music w/ Chris Anderson
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f97b3076b4eb@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261202T010000Z
+DTEND:20261202T023000Z
+SUMMARY:Poetry Reading
+LOCATION:Water From Wine\, Leavenworth
+DESCRIPTION:Join local poets Cynthia Neely and Susan Blair and sip a glass of wine as they read from their recently published books\, I’ll Dress Myself in Wilderness and You\, and Haunting You.\nhttps://abookforallseasons.com/event/2026-12-01/poetry-reading
+URL:https://abookforallseasons.com/event/2026-12-01/poetry-reading
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Poetry Reading
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0d8974d4fa@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261204T030000Z
+DTEND:20261204T060000Z
+SUMMARY:Singer Songwriter Storyteller: December
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Wenatchee
+DESCRIPTION:Singer\, Songwriter\, Storyteller Eric Link\, Beth Whitney\, Erin McNamee Find more info at: https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EwA2c2AF\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EwA2c2AF
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EwA2c2AF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: December
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9477175562bc@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Little Black Dress Party
+LOCATION:Wenatchee Convention Center\, North Wenatchee Avenue\, Wenatchee\, WA\, USA\, Wenatchee
+DESCRIPTION:$49.87 \nhttps://allevents.in/wenatchee/little-black-dress-party/100002002660704076
+URL:https://allevents.in/wenatchee/little-black-dress-party/100002002660704076
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Little Black Dress Party
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9b23e03aca0d@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:The Fab Lads Now & Then: a Complete Beatles Experience Concert
+LOCATION:One: Special Event Venue\, Quincy
+DESCRIPTION:$34 \nhttps://happeningnext.com/event/the-fab-lads-now-andamp-then-a-complete-beatles-experience-concert-eid1ef0l3a6qrsa
+URL:https://happeningnext.com/event/the-fab-lads-now-andamp-then-a-complete-beatles-experience-concert-eid1ef0l3a6qrsa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Fab Lads Now & Then: a Complete Beatles Experience Concert
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a8d890a217@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261205T170000Z
+DTEND:20261205T213000Z
+SUMMARY:The Met Opera: Samson et Dalila – Saint-Saëns
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Come experience the Metropolitan Opera\, live-streamed in HD in the beautiful Snowy Owl Theatre\, less than a 10 minute drive from downtown Leavenworth! Pastries and mimosas available for purchase. Saint-Saëns’s operatic take on the classic biblical story follows Samson\, the hero of legendary…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq84f2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq84f2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Met Opera: Samson et Dalila – Saint-Saëns
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:62a6b6053483@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261205T210000Z
+DTEND:20261205T230000Z
+SUMMARY:Book Signing @ A Book for All Seasons
+LOCATION:A Book for All Seasons\, Leavenworth
+DESCRIPTION:Morgan Lockhart signs her newest novel\, A Curse for Christmas Past. For fans of Good Spirits\, Hallmark holiday movies\, and general witchy shenanigans\, this charming holiday romance follows a woman with a curse and the handsome witch she reluctantly enlists to help her break it.\nhttps://abookforallseasons.com/
+URL:https://abookforallseasons.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Book Signing @ A Book for All Seasons
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d603a4621217@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261206T030000Z
+DTEND:20261206T060000Z
+SUMMARY:A John Prine Christmas with the Jenner Fox Band
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Wenatchee
+DESCRIPTION:A John Prine Christmas Ever wonder what John Prine has to do with Christmas? Ever wished the beloved songwriter had more to do with sleigh bells\, eggnog\, and Old Saint Nick. Well\, in 1994 Prine released his 11th LP titled\, “A John Prine Christmas.” The critics didn’t acclaim it much\, but with…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000F6vfh2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000F6vfh2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: A John Prine Christmas with the Jenner Fox Band
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e6098fc5aba@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261206T030000Z
+DTEND:20261206T043000Z
+SUMMARY:Merry Christmas from Leavenworth Concert
+LOCATION:Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:Featuring all local musicians\, this FREE concert will have Glühwein and beer for sale along with light snacks. The concert will include the Leavenworth Alphorns\, Leavenworth Village Voices\, Beaver Valley Elementary School chorus and several other local groups\, plus some of our favorite local…\nhttps://leavenworth.org/event/merry-christmas-from-leavenworth-concert/
+URL:https://leavenworth.org/event/merry-christmas-from-leavenworth-concert/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Merry Christmas from Leavenworth Concert
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c53ca6663e@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261206T033000Z
+DTEND:20261206T053000Z
+SUMMARY:Storm Large @ Numerica Performing Arts Center
+LOCATION:Numerica Performing Arts Center\, Wenatchee
+DESCRIPTION:Storm Large at Numerica Performing Arts Center at 2026-12-05T19:30:00-0800\nhttp://www.songkick.com/concerts/43513965-storm-large-at-numerica-performing-arts-center?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43513965-storm-large-at-numerica-performing-arts-center?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Storm Large @ Numerica Performing Arts Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3ff2dbe43ff@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261206T230000Z
+DTEND:20261207T010000Z
+SUMMARY:A Special Visit from Italy: Meet Emanuele Fontanini
+LOCATION:Kris Kringl\, Leavenworth
+DESCRIPTION:Join us at Kris Kringl for a very special afternoon with Emanuele Fontanini\, visiting from Italy for an exclusive signing event! This is a wonderful opportunity to meet a member of the family behind one of the world’s most beloved Italian nativity collections and discover the history\, artistry\, and…\nwww.kriskringl.com
+URL:www.kriskringl.com
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: A Special Visit from Italy: Meet Emanuele Fontanini
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:800c7e3a0a5b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261206T230000Z
+DTEND:20261207T010000Z
+SUMMARY:Meet Emanuele Fontanini at Kris Kringl
+LOCATION:Kris Kringl\, Leavenworth
+DESCRIPTION:Join us at Kris Kringl for a very special afternoon with Emanuele Fontanini\, visiting from Italy for an exclusive signing event! For generations\, Fontanini has been celebrated for its beautifully designed and hand-painted Italian nativities\, cherished by collectors and families around the world.…\nwww.kriskringl.com
+URL:www.kriskringl.com
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Meet Emanuele Fontanini at Kris Kringl
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0d7f3d8cdab8@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261209T030000Z
+DTEND:20261209T040000Z
+SUMMARY:Red Barn Event: 'The Icicle Calls Us Back' Film Showing
+LOCATION:Red Barn at Wenatchee River Institute\, Leavenworth
+DESCRIPTION:Free The Icicle Calls Us Back Film Showing with Claire Seaman This event and film will be livestreamed during the event\, but will NOT be available to watch later. Livestream the event on YouTube at this link. No registration required\, but RSVP to receive email reminders and updates about this event!…\nhttps://wenatcheeriverinstitute.org/event-calendar.html/event/2026/12/08/red-barn-event-the-icicle-calls-us-back-film-showing/579659
+URL:https://wenatcheeriverinstitute.org/event-calendar.html/event/2026/12/08/red-barn-event-the-icicle-calls-us-back-film-showing/579659
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Red Barn Event: 'The Icicle Calls Us Back' Film Showing
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba75385d7e79@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261211T030000Z
+DTEND:20261211T060000Z
+SUMMARY:Vince Guaraldi’s A Charlie Brown Christmas: Jose Gonzales Trio
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Vince Guaraldi’s A Charlie Brown Christmas Performed live by the Jose “Juicy” Gonzales Trio At the heart of the evening is Vince Guaraldi’s iconic score\, recently named by Billboard as the #1 Greatest Holiday Album of All Time. Jose and his trio perform the soundtrack live in its entirety\, honoring…\nhttps://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000JtO0L2AV
+URL:https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000JtO0L2AV
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Vince Guaraldi’s A Charlie Brown Christmas: Jose Gonzales Trio
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:348aaa962767@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20270118
+SUMMARY:Wenatchee Wild vs. Seattle Thunderbirds
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:$19 \nhttps://happeningnext.com/event/wenatchee-wild-vs-seattle-thunderbirds-eid13twixk2mfd
+URL:https://happeningnext.com/event/wenatchee-wild-vs-seattle-thunderbirds-eid13twixk2mfd
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wild vs. Seattle Thunderbirds
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c00793ad2dd@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261212T030000Z
+DTEND:20261212T060000Z
+SUMMARY:Vince Guaraldi’s A Charlie Brown Christmas: Jose Gonzales Trio
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Vince Guaraldi’s A Charlie Brown Christmas Performed live by the Jose “Juicy” Gonzales Trio At the heart of the evening is Vince Guaraldi’s iconic score\, recently named by Billboard as the #1 Greatest Holiday Album of All Time. Jose and his trio perform the soundtrack live in its entirety\, honoring…\nhttps://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000JtO0L2AV
+URL:https://icicle.my.salesforce-sites.com/ticket/#/events/a0SPH00000JtO0L2AV
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Vince Guaraldi’s A Charlie Brown Christmas: Jose Gonzales Trio
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f8c8233e57@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:VECA Holiday Party 2026 - Wenatchee
+LOCATION:Wenatchee Convention Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/veca-holiday-party-2026-wenatchee/100002004087555828
+URL:https://allevents.in/wenatchee/veca-holiday-party-2026-wenatchee/100002004087555828
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: VECA Holiday Party 2026 - Wenatchee
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08cb41fc8a03@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261212T220000Z
+DTEND:20261213T003000Z
+SUMMARY:Leavenworth Village Voices: Christmas in the Mountains Matinee
+LOCATION:Canyon Wren Recital Hall\, Leavenworth
+DESCRIPTION:Usher in the joy and peace of the Christmas season with Leavenworth’s own community choir for a magical winter concert at the Canyon Wren Recital Hall! Now in its 44th year of spreading Christmas joy\, the Leavenworth Village Voices presents this heartwarming and festive concert showcasing a rich…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000FKFjp2AH
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000FKFjp2AH
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Leavenworth Village Voices: Christmas in the Mountains Matinee
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d60c130533a5@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261213T040000Z
+DTEND:20261213T053000Z
+SUMMARY:THE JEWEL TONES Motown Christmas Concert
+LOCATION:Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:The Jewel Tones are an all-female\, Motown-inspired vocal trio who perform hits by The Supremes\, The Jackson 5\, Gladys Knight & The Pips\, Stevie Wonder\, and many more. These ladies deliver sparkling personality\, stellar vocals\, fun choreography\, and a classic 1960s look. They are a sparkling homage…\nhttps://leavenworth.org/christmastown
+URL:https://leavenworth.org/christmastown
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: THE JEWEL TONES Motown Christmas Concert
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9a9f755b4df1@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Calgary Hitmen at Wenatchee Wild at Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/calgary-hitmen-at-wenatchee-wild-at-town-toyota-center/2400030465737259
+URL:https://allevents.in/wenatchee/calgary-hitmen-at-wenatchee-wild-at-town-toyota-center/2400030465737259
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Calgary Hitmen at Wenatchee Wild at Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f2c5622504f3@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261218T020000Z
+DTEND:20261218T043000Z
+SUMMARY:Girls Night Out at NCW Woodshop @NCW Woodshop
+LOCATION:NCW Woodshop\, Cashmere
+DESCRIPTION:Looking for a fun night out with friends? Join our Girls’ Night Out woodworking class to create hexagon floating shelves! Assemble pre-cut pieces using glue and a brad nailer\, then enjoy a glass of wine while the glue dries. Finish by sanding and staining to match your style. No experience…\nhttps://ncwwoodshop.com/class-GNO
+URL:https://ncwwoodshop.com/class-GNO
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Girls Night Out at NCW Woodshop @NCW Woodshop
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:27117a093923@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Dance To Glorify- The Nutcracker
+LOCATION:Wenatchee High School\, Wenatchee
+DESCRIPTION:$12.51 \nhttps://allevents.in/wenatchee/dance-to-glorify-the-nutcracker/100002003845804744
+URL:https://allevents.in/wenatchee/dance-to-glorify-the-nutcracker/100002003845804744
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Dance To Glorify- The Nutcracker
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:09375c706c7b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:GEOFFREY CASTLE’S CELTIC CHRISTMAS ~ 20TH ANNIVERSARY TOUR
+LOCATION:Wenatchee Convention Center\, Wenatchee
+DESCRIPTION:GEOFFREY CASTLE’S CELTIC CHRISTMAS 20TH ANNIVERSARY TOUR Now a Wenatchee tradition\, the Northwest Holiday Season wouldn’t be the same without a visit from Geoffrey Castle and his cherished annual Celtic Christmas Concert! This season’s concert series feat\nhttps://allevents.in/wenatchee/geoffrey-castles-celtic-christmas-~-20th-anniversary-tour/200030995558224
+URL:https://allevents.in/wenatchee/geoffrey-castles-celtic-christmas-~-20th-anniversary-tour/200030995558224
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: GEOFFREY CASTLE’S CELTIC CHRISTMAS ~ 20TH ANNIVERSARY TOUR
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:417f1539058a@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261220T230000Z
+DTEND:20261221T013000Z
+SUMMARY:WVSO + Columbia Chorale | Heaven & Nature Sing
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Wenatchee
+DESCRIPTION:When the orchestra and chorus meet at Christmas\, the hall itself seems to join the score. Heaven and Nature Sing brings the Wenatchee Valley Symphony Orchestra and Columbia Chorale together for an evening of carols\, concert showpieces\, and the kind of communal singing that turns an audience into…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000FErAH2A1
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000FErAH2A1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: WVSO + Columbia Chorale | Heaven & Nature Sing
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a315f8185da@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261221T010000Z
+DTEND:20261221T023000Z
+SUMMARY:Christmas Spectactular with Manuela Horn and her Slay-belles!
+LOCATION:Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:Get ready to jingle\, giggle\, and grin! Manuela Horn & The Slay Belles are bringing big laughs and holiday cheer to the stage. Fronted by international comedian Manuela Horn\, this high-energy trio combines powerhouse vocals\, playful humor\, and clever holiday parodies into one glitter-filled…\nhttps://leavenworth.org/christmastown
+URL:https://leavenworth.org/christmastown
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Christmas Spectactular with Manuela Horn and her Slay-belles!
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4e4ffd918ad@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261223T010000Z
+DTEND:20261223T023000Z
+SUMMARY:Christmas Spectactular with Manuela Horn and her Slay-belles!
+LOCATION:Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:Get ready to jingle\, giggle\, and grin! Manuela Horn & The Slay Belles are bringing big laughs and holiday cheer to the stage. Fronted by international comedian Manuela Horn\, this high-energy trio combines powerhouse vocals\, playful humor\, and clever holiday parodies into one glitter-filled…\nhttps://leavenworth.org/christmastown
+URL:https://leavenworth.org/christmastown
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Christmas Spectactular with Manuela Horn and her Slay-belles!
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8fd986fb5dbd@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Holiday Cookie Decorating @ The Cove
+LOCATION:The Cove Wine & Games\, Chelan
+DESCRIPTION:$23 Join us at The Cove for another holiday cookie decorating night!About this EventJoin us at The Cove on Wednesday\, December 23rd from 5 - 7 PM for a Holiday Cookie Decorating Night!\nhttps://happeningnext.com/event/holiday-cookie-decorating-the-cove-eid1ef0l8m2k54r
+URL:https://happeningnext.com/event/holiday-cookie-decorating-the-cove-eid1ef0l8m2k54r
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Holiday Cookie Decorating @ The Cove
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bdcdb460ca97@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20261224T210000Z
+DTEND:20261224T230000Z
+SUMMARY:Photos with Santa Downtown
+LOCATION:Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:Photos with Santa downtown near the Gazebo in Front Street Park. No charge! Just bring your camera\, and we will have an elf ready to take the photo!\nhttps://leavenworth.org/christmastown
+URL:https://leavenworth.org/christmastown
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Photos with Santa Downtown
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68857913c80b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270328
+SUMMARY:Everett Silvertips at Wenatchee Wild at Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/everett-silvertips-at-wenatchee-wild-at-town-toyota-center/2400027670846527
+URL:https://allevents.in/wenatchee/everett-silvertips-at-wenatchee-wild-at-town-toyota-center/2400027670846527
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Everett Silvertips at Wenatchee Wild at Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7e8ee566ac@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270101T030000Z
+DTEND:20270101T050000Z
+SUMMARY:New Year's Eve Dance feat. Wenatchee Big Band
+LOCATION:Wenatchee
+DESCRIPTION:Celebrate the New Year with the Wenatchee Big Band! We appreciate you bringing a non-refrigerated snack to share. All of our dances feature great music by local bands. Dancing is optional — you are welcome to come to enjoy the music and socialize. Tickets are $20 and available at the door the day…\nhttps://events.timely.fun/bm30tqng/event/78512731/20261231190000
+URL:https://events.timely.fun/bm30tqng/event/78512731/20261231190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: New Year's Eve Dance feat. Wenatchee Big Band
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d9d08bf8f98@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Village of Lights: Winter Karneval
+LOCATION:Front Street Gazebo & Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:The Village of Lights continues! Our famous Christmas lights are on every day from approximately 6 am – 11 pm. Come j oin us this January for Leavenworth’s Winter Karneval as we honor a German tradition dating back to the thirteenth century\, commonly referred to as ‘Fasching’. You can expect to see…\nhttps://leavenworth.org/winterkarneval/
+URL:https://leavenworth.org/winterkarneval/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Village of Lights: Winter Karneval
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9911d4a138ee@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Edmonton Oil Kings at Wenatchee Wild at Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/edmonton-oil-kings-at-wenatchee-wild-at-town-toyota-center/2400030467742301
+URL:https://allevents.in/wenatchee/edmonton-oil-kings-at-wenatchee-wild-at-town-toyota-center/2400030467742301
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Edmonton Oil Kings at Wenatchee Wild at Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b6f3215460@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270108T030000Z
+DTEND:20270108T050000Z
+SUMMARY:Singer Songwriter Storyteller: January
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Alex Rasmussen\, Brittney Jean\, Nate Weakley . Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General Admission…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ew9kj2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ew9kj2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: January
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6cb80a08448b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Dancing with the Wenatchee Stars
+LOCATION:Numerica Performing Arts Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/dancing-with-the-wenatchee-stars/2300030574920333
+URL:https://allevents.in/wenatchee/dancing-with-the-wenatchee-stars/2300030574920333
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Dancing with the Wenatchee Stars
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:455c4c8010e4@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Joel Gibson Jr. @ Lake Chelan Winterfest - Full Band
+LOCATION:Lake Chelan Winterfest\, Chelan
+DESCRIPTION:Tickets on sale soon! 🎸 JOEL GIBSON JR. | FULL BAND Join Nashville Recording Artist and 27-time award winner Joel Gibson Jr. for an unforgettable night of live music! Known for his distinctive Eclectic Outlaw style\, Joel delivers a dynamic mix of count\nhttps://allevents.in/chelan/joel-gibson-jr-lake-chelan-winterfest-full-band/200030973655817
+URL:https://allevents.in/chelan/joel-gibson-jr-lake-chelan-winterfest-full-band/200030973655817
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Joel Gibson Jr. @ Lake Chelan Winterfest - Full Band
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:442db838c603@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270123T180000Z
+DTEND:20270123T220000Z
+SUMMARY:The Met Opera: La Fanciulla del West – Puccini
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Come experience the Metropolitan Opera\, live-streamed in HD in the beautiful Snowy Owl Theatre\, less than a 10 minute drive from downtown Leavenworth! Pastries and mimosas available for purchase. Set during the California Gold Rush\, Minnie\, the gun-slinging tavern owner with a heart of gold\, finds…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq7rl2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq7rl2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Met Opera: La Fanciulla del West – Puccini
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:28b377f40d56@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Patrick Warburton
+LOCATION:Numerica Performing Arts Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/patrick-warburton/2300030580062639
+URL:https://allevents.in/wenatchee/patrick-warburton/2300030580062639
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Patrick Warburton
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64ab8ca8214f@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270205T030000Z
+DTEND:20270205T053000Z
+SUMMARY:Singer Songwriter Storyteller: February
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Fox & Bones\, Flowers for Wolves\, Nick and Stephanie . Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ezg2H2AR
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ezg2H2AR
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: February
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7ea0c279c352@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270214T030000Z
+DTEND:20270214T053000Z
+SUMMARY:Seraph Brass @ ICCA
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Seraph Brass\, now in its 13th season\, was founded by trumpet soloist Mary Elizabeth Bowden with a mission to showcase the excellence of women brass players and to highlight musicians from marginalized groups. Winners of the American Prize in Chamber Music\, the group has been praised for its…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000F3iNF2AZ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000F3iNF2AZ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Seraph Brass @ ICCA
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c161dae55c8d@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Mardi Gras Mambo at Numerica Performing Arts Center
+LOCATION:Numerica Performing Arts Center\, Wenatchee
+DESCRIPTION:https://happeningnext.com/event/mardi-gras-mambo-at-numerica-performing-arts-center-eid15hwihqebbp
+URL:https://happeningnext.com/event/mardi-gras-mambo-at-numerica-performing-arts-center-eid15hwihqebbp
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Mardi Gras Mambo at Numerica Performing Arts Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d963f63c51ae@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Hell's Belles - Tribute to AC/DC
+LOCATION:Numerica Performing Arts Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/hells-belles-tribute-to-ac-dc/2300030576479253
+URL:https://allevents.in/wenatchee/hells-belles-tribute-to-ac-dc/2300030576479253
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Hell's Belles - Tribute to AC/DC
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f5cdcfa986@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270305T030000Z
+DTEND:20270305T053000Z
+SUMMARY:Singer Songwriter Storyteller: March
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Jacob Simms\, Wayne Evans\, Tim Langford. Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General Admission $15…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzgK12AJ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzgK12AJ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: March
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:262049ffb86e@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270307T033000Z
+DTEND:20270307T053000Z
+SUMMARY:Dylan Scott @ Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:Dylan Scott at Town Toyota Center at 2027-03-06T19:30:00-0800\nhttp://www.songkick.com/concerts/43419482-dylan-scott-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43419482-dylan-scott-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Dylan Scott @ Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:964348c3e4a2@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270313T030000Z
+DTEND:20270313T050000Z
+SUMMARY:Sleeping Lady Foundation’s Speaker Series: Tim Egan
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Timothy P. Egan is a New York Times bestselling author\, journalist\, and former op-ed columnist for The New York Times. Egan has written ten books\, and recipient of multiple literary awards\, including the Carnegie Award for best nonfiction\, the National Book Award\, and the Pulitzer Prize for…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskKL2AZ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskKL2AZ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Sleeping Lady Foundation’s Speaker Series: Tim Egan
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d71b0bbb5f08@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Wenatchee Wild vs. Portland Winterhawks
+LOCATION:Town Toyota Center - Wenatchee\, Wenatchee
+DESCRIPTION:https://happeningnext.com/event/wenatchee-wild-vs-portland-winterhawks-eid3fk9peo4eq
+URL:https://happeningnext.com/event/wenatchee-wild-vs-portland-winterhawks-eid3fk9peo4eq
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Wenatchee Wild vs. Portland Winterhawks
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4ccde93f4fe0@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270402T020000Z
+DTEND:20270402T043000Z
+SUMMARY:Singer Songwriter Storyteller: April
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Cody Bartels\, Skyler Mehal\, Seth Garrido . Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General Admission $15…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzjTB2AZ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzjTB2AZ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: April
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bef7ed5b406b@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270403T160000Z
+DTEND:20270403T210000Z
+SUMMARY:The Met Opera: Manon – Massenet
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Come experience the Metropolitan Opera\, live-streamed in HD in the beautiful Snowy Owl Theatre\, less than a 10 minute drive from downtown Leavenworth! Pastries and mimosas available for purchase. A masterpiece of the French repertoire\, Massenet’s passionate drama follows the young Manon on her…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq56n2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq56n2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Met Opera: Manon – Massenet
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:717395f02739@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270409T020000Z
+DTEND:20270409T043000Z
+SUMMARY:Sleeping Lady Foundation’s Speaker Series: Danielle Feinberg
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Danielle Feinberg is known for both her work at Pixar Animation Studios\, as a champion of diversity\, as well as an entertaining and informative speaker\, giving talks around the world. She has helped shape the world of animated films through her work on such titles as A Bug’s Life\, Toy Story 2\,…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskNZ2AZ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskNZ2AZ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Sleeping Lady Foundation’s Speaker Series: Danielle Feinberg
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cabd19d9be7a@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270427T170000Z
+DTEND:20270427T210000Z
+SUMMARY:The Met Opera: Otello – Verdi
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Come experience the Metropolitan Opera\, live-streamed in HD in the beautiful Snowy Owl Theatre\, less than a 10 minute drive from downtown Leavenworth! Pastries and mimosas available for purchase. Verdi’s monumental Shakespearean tragedy follows a triumphant war hero driven to destruction by…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq4x72AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq4x72AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Met Opera: Otello – Verdi
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3df7304138f@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270507T020000Z
+DTEND:20270507T043000Z
+SUMMARY:Singer Songwriter Storyteller: May
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Cody Beebe\, James Beam\, The Rising Sons. Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General Admission $15…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzjeT2AR
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EzjeT2AR
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: May
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7828dabb4752@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Traditional Maifest Celebration
+LOCATION:Front Street Gazebo & Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:We’ve been doing Maifest right since 1971! This weekend will fill your entertainment card right up with Maipole dancing\, Bavarian music\, our annual Festzug (or Grand March) where town folk dress in their Bavarian best to welcome you to town and includes the Bernese Mountain dogs\, and so much more!…\nleavenworth.org/maifest
+URL:leavenworth.org/maifest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Traditional Maifest Celebration
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b9b3094ed53d@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Traditional Maifest Celebration
+LOCATION:Front Street Gazebo & Leavenworth Festhalle\, Leavenworth
+DESCRIPTION:We’ve been doing Maifest right since 1971! This weekend will fill your entertainment card right up with Maipole dancing\, Bavarian music\, our annual Festzug (or Grand March) where town folk dress in their Bavarian best to welcome you to town and includes the Bernese Mountain dogs\, and so much more!…\nleavenworth.org/maifest
+URL:leavenworth.org/maifest
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Traditional Maifest Celebration
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad0f14402154@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270514T020000Z
+DTEND:20270514T043000Z
+SUMMARY:Sleeping Lady Foundation’s Speaker Series: Anna Lappé
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Anna Lappé is the Executive Director of the Global Alliance for the Future of Food\, a strategic alliance of philanthropic foundations working for food system transformation around the world. A recipient of the James Beard Leadership Award\, Anna is also the national bestselling co-author or author…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskLy2AJ
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000EskLy2AJ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Sleeping Lady Foundation’s Speaker Series: Anna Lappé
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a8ce77f77120@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Card Mania #03: Arena Show
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:https://allevents.in/wenatchee/card-mania-03-arena-show/200031013315403
+URL:https://allevents.in/wenatchee/card-mania-03-arena-show/200031013315403
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Card Mania #03: Arena Show
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f1312d64651c@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270604T020000Z
+DTEND:20270604T043000Z
+SUMMARY:Singer Songwriter Storyteller: June
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:First Thursday of the month concert! Ian Jones\, Leah Justine\, Aaron Crawford. Acoustic instruments\, honest vocals\, and songs that stay with you long after the last note – all inside Leavenworth’s Snowy Owl Theater\, a world-class listening room that feels just like home. $25 General Admission $15…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ezjkv2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Ezjkv2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Singer Songwriter Storyteller: June
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca5390513097@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270605T160000Z
+DTEND:20270605T220000Z
+SUMMARY:The Met Opera: Parsifal – Wagner
+LOCATION:Snowy Owl Theater at Icicle Creek Center for the Arts\, Leavenworth
+DESCRIPTION:Come experience the Metropolitan Opera\, live-streamed in HD in the beautiful Snowy Owl Theatre\, less than a 10 minute drive from downtown Leavenworth! Pastries and mimosas available for purchase. Wagner’s epic final opera\, set in a sacred realm of ritual and mystery\, unfolds as a meditation on…\nhttps://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq3sz2AB
+URL:https://icicle.my.salesforce-sites.com/ticket/#/instances/a0FPH00000Eq3sz2AB
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: The Met Opera: Parsifal – Wagner
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0209e9686dd1@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270625T220000Z
+DTEND:20270626T000000Z
+SUMMARY:Beyond Wonderland At The Gorge 2027 @ Gorge Amphitheatre
+LOCATION:Gorge Amphitheatre\, Quincy
+DESCRIPTION:Beyond Wonderland At The Gorge 2027 at Gorge Amphitheatre at 2027-06-25T15:00:00-0700\nhttp://www.songkick.com/festivals/3312374-beyond-wonderland-at-the-gorge/id/43325807-beyond-wonderland-at-the-gorge-2027?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/festivals/3312374-beyond-wonderland-at-the-gorge/id/43325807-beyond-wonderland-at-the-gorge-2027?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Beyond Wonderland At The Gorge 2027 @ Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:01a4adfb2daa@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270625T220000Z
+DTEND:20270626T000000Z
+SUMMARY:Beyond Wonderland Festival 2027 @ Gorge Amphitheatre
+LOCATION:Gorge Amphitheatre\, Quincy
+DESCRIPTION:Beyond Wonderland Festival 2027 at Gorge Amphitheatre at 2027-06-25T15:00:00-0700\nhttp://www.songkick.com/festivals/53856-beyond-wonderland/id/43313547-beyond-wonderland-festival-2027?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/festivals/53856-beyond-wonderland/id/43313547-beyond-wonderland-festival-2027?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Beyond Wonderland Festival 2027 @ Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:481a357277a3@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270626T190000Z
+DTEND:20270626T210000Z
+SUMMARY:Beyond Wonderland PNW 2027 @ Gorge Amphitheatre
+LOCATION:Gorge Amphitheatre\, Quincy
+DESCRIPTION:Beyond Wonderland PNW 2027 at Gorge Amphitheatre at 2027-06-26T12:00:00-0700\nhttp://www.songkick.com/festivals/3313079-beyond-wonderland-pnw/id/43325960-beyond-wonderland-pnw-2027?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/festivals/3313079-beyond-wonderland-pnw/id/43325960-beyond-wonderland-pnw-2027?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Beyond Wonderland PNW 2027 @ Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5034e4abbda9@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270627T190000Z
+DTEND:20270627T210000Z
+SUMMARY:Beyond Wonderland At The Gorge 2027 @ Gorge Amphitheatre
+LOCATION:Gorge Amphitheatre\, Quincy
+DESCRIPTION:Beyond Wonderland At The Gorge 2027 at Gorge Amphitheatre at 2027-06-27T12:00:00-0700\nhttp://www.songkick.com/festivals/3312374-beyond-wonderland-at-the-gorge/id/43311274-beyond-wonderland-at-the-gorge-2027?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/festivals/3312374-beyond-wonderland-at-the-gorge/id/43311274-beyond-wonderland-at-the-gorge-2027?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Beyond Wonderland At The Gorge 2027 @ Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95a59ff78dff@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270703T010000Z
+DTEND:20270703T030000Z
+SUMMARY:Zach Top @ Gorge Amphitheatre
+LOCATION:Gorge Amphitheatre\, Quincy
+DESCRIPTION:Zach Top and Red Clay Strays at Gorge Amphitheatre at 2027-07-02T18:00:00-0700\nhttp://www.songkick.com/concerts/43507468-zach-top-at-gorge-amphitheatre?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43507468-zach-top-at-gorge-amphitheatre?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Zach Top @ Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7657b55bf1fd@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270822T030000Z
+DTEND:20270822T050000Z
+SUMMARY:King Gizzard & The Lizard Wizard @ The Gorge Amphitheatre
+LOCATION:The Gorge Amphitheatre\, Quincy
+DESCRIPTION:King Gizzard & The Lizard Wizard at The Gorge Amphitheatre at 2027-08-21T20:00:00-0700\nhttp://www.songkick.com/concerts/43507905-king-gizzard-and-the-lizard-wizard-at-gorge-amphitheatre?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43507905-king-gizzard-and-the-lizard-wizard-at-gorge-amphitheatre?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: King Gizzard & The Lizard Wizard @ The Gorge Amphitheatre
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bcaaf8379ae6@wenatchee-activities
+DTSTAMP:20261113T175008Z
+DTSTART:20270903T030000Z
+DTEND:20270903T050000Z
+SUMMARY:Legacy: A Pink Floyd Show @ Town Toyota Center
+LOCATION:Town Toyota Center\, Wenatchee
+DESCRIPTION:Legacy: A Pink Floyd Show at Town Toyota Center at 2027-09-02T20:00:00-0700\nhttp://www.songkick.com/concerts/43503436-legacy-a-pink-floyd-show-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+URL:http://www.songkick.com/concerts/43503436-legacy-a-pink-floyd-show-at-town-toyota-center?utm_medium=organic&utm_source=microformat
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Get tickets: Legacy: A Pink Floyd Show @ Town Toyota Center
+TRIGGER:-P21D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
