@@ -211,6 +211,20 @@
    "enabled": false
   },
   {
+   "id": "meetup",
+   "name": "Meetup groups",
+   "aggregator": true,
+   "site": "https://www.meetup.com/find/?location=us--wa--Spokane&source=EVENTS",
+   "strategies": [
+    [
+     "jsonld",
+     "https://www.meetup.com/find/?location=us--wa--Spokane&source=EVENTS",
+     "https://www.meetup.com/find/?location=us--wa--Spokane%20Valley&source=EVENTS",
+     "https://www.meetup.com/find/?location=us--id--Coeur%20d%27Alene&source=EVENTS"
+    ]
+   ]
+  },
+  {
    "id": "songkick",
    "name": "Songkick concerts",
    "aggregator": true,
@@ -243,7 +257,17 @@
      "https://allevents.in/deer-park",
      "https://allevents.in/coeur-d-alene",
      "https://allevents.in/post-falls",
-     "https://allevents.in/hayden"
+     "https://allevents.in/hayden",
+     "https://allevents.in/spokane/all?page=2",
+     "https://allevents.in/spokane/all?page=3",
+     "https://allevents.in/spokane/all?page=4",
+     "https://allevents.in/spokane/food-drinks",
+     "https://allevents.in/spokane/music",
+     "https://allevents.in/spokane/kids",
+     "https://allevents.in/spokane/arts",
+     "https://allevents.in/spokane/sports",
+     "https://allevents.in/spokane/festivals",
+     "https://allevents.in/spokane/workshops"
     ]
    ]
   },
